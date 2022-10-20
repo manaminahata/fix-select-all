@@ -2,15 +2,51 @@
 <html>
 
 <head>
-	<title>Parcel Sandbox</title>
+	<title>全選択・解除</title>
 	<meta charset="UTF-8" />
 </head>
 
 <body>
-	<div id="app"></div>
-
+	<h2>サウナ施設一覧</h2>
+	<table border="1" style="width: 50%; font-size: 100%; border-collapse: collapse">
+		<thead style="background-color: #BDBDB7;">
+			<tr align="center">
+				<th>更新ステータス<br><input type="button" id="select-all" value="全選択"></th>
+				<th>施設名</th>
+				<th>場所</th>
+				<th>料金</th>
+			</tr>
+			<tbody>
+				<tr align="center">
+					<td>
+						<input type="checkbox" name="check">
+					</td>
+					<td>らかんの湯</td>
+					<td>佐賀県</td>
+					<td>日帰り4,500円</td>
+				</tr>
+				<tr align="center">
+					<td>
+						<input type="checkbox" name="check">
+					</td>
+					<td>ホテルマウント富士</td>
+					<td>山梨県</td>
+					<td>日帰り2,200円</td>
+				</tr>
+				<tr align="center">
+					<td>
+						<input type="checkbox" name="check">
+					</td>
+					<td>サウナしきじ</td>
+					<td>静岡県</td>
+					<td>男性：1,400円/女性：900円</td>
+				</tr>
+			</tbody>	
+		</thead>	
+	</table>	
 	<script src="src/index.js">
 	</script>
 </body>
 
 </html>
+Footer
